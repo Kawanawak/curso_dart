@@ -2,6 +2,7 @@
  - Numeros ( Int e double)
  - String (String)
  - Booleano (bool)
+ - Dynamic
  */
 
 void main() {
@@ -11,4 +12,13 @@ void main() {
   num n4 = 6;
 
   print(n1 + n2 + n3 + n4);
+
+  dynamic x = "Um texto brm legal";
+  print(x);
+
+  x = 123;
+  print(x);
+
+  x = false;
+  print(x);
 }
